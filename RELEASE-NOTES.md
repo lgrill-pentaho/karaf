@@ -577,9 +577,9 @@ Apache Karaf 4.2.7 is an update on the 4.2.x series, bringing fixes, improvement
     * [KARAF-6415] - Upgrade to Aries Proxy 1.1.6
     * [KARAF-6426] - Upgrade to hibernate-validator 6.0.17.Final
 
-## Apache Karaf 4.2.6
+## Apache Karaf 4.2.15
 
-Apache Karaf 4.2.6 is an updte on the 4.2.x series, bringing fixes and updates.
+Apache Karaf 4.2.15 is an updte on the 4.2.x series, bringing fixes and updates.
 
 ### ChangeLog
 
