@@ -30,8 +30,8 @@
                         <id>default</id>
                         <phases>
                             <compile>
-                                org.apache.karaf.tooling:karaf-maven-plugin:features-generate-descriptor,
-                                org.apache.karaf.tooling:karaf-maven-plugin:verify
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:features-generate-descriptor,
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:verify
                             </compile>
                             <install>
                                 org.apache.maven.plugins:maven-install-plugin:install
@@ -70,11 +70,11 @@
                                 org.apache.maven.plugins:maven-resources-plugin:resources
                             </process-resources>
                             <compile>
-                                org.apache.karaf.tooling:karaf-maven-plugin:features-generate-descriptor,
-                                org.apache.karaf.tooling:karaf-maven-plugin:verify
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:features-generate-descriptor,
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:verify
                             </compile>
                             <package>
-                                org.apache.karaf.tooling:karaf-maven-plugin:kar
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:kar
                             </package>
                             <install>
                                 org.apache.maven.plugins:maven-install-plugin:install
@@ -117,14 +117,14 @@
                         <phases>
                             <process-resources>
                                 org.apache.maven.plugins:maven-resources-plugin:resources,
-                                org.apache.karaf.tooling:karaf-maven-plugin:assembly
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:assembly
                             </process-resources>
                             <compile>
                             </compile>
                             <prepare-package>
                             </prepare-package>
                             <package>
-                                org.apache.karaf.tooling:karaf-maven-plugin:archive
+                                org.hitachivantara.karaf.tooling:karaf-maven-plugin:archive
                             </package>
                             <install>
                                 org.apache.maven.plugins:maven-install-plugin:install
