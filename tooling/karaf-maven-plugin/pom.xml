@@ -259,6 +259,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>org.hitachivantara.karaf.features.core</artifactId>
+            <version>${karaf.project.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>org.apache.karaf.shell.console</artifactId>
@@ -269,6 +270,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.profile</groupId>
             <artifactId>org.hitachivantara.karaf.profile.core</artifactId>
+            <version>${karaf.project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>
