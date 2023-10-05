@@ -67,7 +67,7 @@
     -->
     <bundleReplacements>
         <bundle originalUri="mvn:commons-beanutils/commons-beanutils/[1.9,2)"
-                replacement="mvn:commons-beanutils/commons-beanutils/1.9.3" />
+                replacement="mvn:commons-beanutils/commons-beanutils/1.9.4" />
         <!--
             An example of direct etc/overrides.properties equivalent - originalUri will be derived from replacement
              - candidate must have version lower than replacement

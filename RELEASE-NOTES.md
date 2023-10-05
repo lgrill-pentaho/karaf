@@ -66,7 +66,7 @@ Apache Karaf 4.3.3 is a maintenance release on 4.3.x series. It contains major f
     * [KARAF-7196] - Upgrade to ASM 9.2
     * [KARAF-7197] - Upgrade to Spring 5.3.8
     * [KARAF-7218] - Upgrade to Felix Framework 6.0.5
-    * [KARAF-7220] - Upgrade commons-compress to 1.21
+    * [KARAF-7220] - Upgrade commons-compress to 1.24.0
     * [KARAF-7222] - Upgrade commons io to 2.11.0
     * [KARAF-7228] - Upgrade to Aries Transaction Blueprint 2.3.0
     * [KARAF-7229] - Upgrade to Aries JPA 2.7.3
@@ -504,7 +504,7 @@ compliant and brings bunch of fixes and new features.
     * [KARAF-6304] - Upgrade to ant 1.10.5
     * [KARAF-6305] - Upgrade to cglib 3.2.9
     * [KARAF-6306] - Upgrade to JNA 5.3.1
-    * [KARAF-6307] - Upgrade to commons-beanutils 1.9.3
+    * [KARAF-6307] - Upgrade to commons-beanutils 1.9.4
     * [KARAF-6308] - Upgrade to commons-codec 1.12
     * [KARAF-6309] - Upgrade to commons-fileupload 1.4
     * [KARAF-6310] - Upgrade to commons-pool2 2.6.2

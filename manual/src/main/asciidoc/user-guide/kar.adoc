@@ -41,7 +41,7 @@ Archive:  spring-4.0.0.kar
       143  2013-12-06 10:52   META-INF/MANIFEST.MF
     12186  2013-12-06 10:52   repository/org/apache/karaf/features/spring/4.0.0/spring-4.0.0-features.xml
    575389  2013-12-06 10:52   repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
-   232019  2013-12-06 10:52   repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar
+   232019  2013-12-06 10:52   repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.9.4.jar
    673109  2013-12-06 10:52   repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.struts/1.3.10_1/org.apache.servicemix.bundles.struts-1.3.10_1.jar
     37084  2013-12-06 10:52   repository/org/springframework/org.springframework.web.struts/3.2.4.RELEASE/org.springframework.web.struts-3.2.4.RELEASE.jar
      7411  2013-12-06 10:52   repository/org/springframework/org.springframework.instrument/3.2.4.RELEASE/org.springframework.instrument-3.2.4.RELEASE.jar
