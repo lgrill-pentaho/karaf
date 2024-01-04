@@ -33,7 +33,6 @@
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Features :: Core</name>
     <description>This bundle is the core implementation of the Karaf features support.</description>
-
     <properties>
         <appendedResourcesDirectory>${basedir}/../../etc/appended-resources</appendedResourcesDirectory>
     </properties>
@@ -117,6 +116,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>

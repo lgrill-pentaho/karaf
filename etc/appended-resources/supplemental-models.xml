@@ -624,23 +624,6 @@
   </supplement>
   <supplement>
     <project>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <name>Log4j</name>
-      <organization>
-        <name>The Apache Software Foundation</name>
-        <url>http://www.apache.org/</url>
-      </organization>
-      <licenses>
-        <license>
-          <name>The Apache Software License, Version 2.0</name>
-          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-      </licenses>
-    </project>
-  </supplement>
-  <supplement>
-    <project>
       <groupId>org.apache.geronimo.components</groupId>
       <artifactId>geronimo-connector</artifactId>
       <name>Apache Geronimo TxManager :: Connector</name> 
