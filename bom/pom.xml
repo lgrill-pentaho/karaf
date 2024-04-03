@@ -28,6 +28,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>org.hitachivantara.karaf</groupId>
     <artifactId>karaf-bom</artifactId>
     <name>Apache Karaf :: BOM</name>
     <packaging>pom</packaging>
@@ -212,8 +213,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
-                <artifactId>org.apache.karaf.features.core</artifactId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
+                <artifactId>org.hitachivantara.karaf.features.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -890,6 +891,12 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -901,6 +908,12 @@
                 <groupId>org.ops4j.pax.logging</groupId>
                 <artifactId>pax-logging-service</artifactId>
                 <version>${pax.logging.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.ops4j.pax.logging</groupId>

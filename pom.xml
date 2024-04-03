@@ -176,7 +176,7 @@
         <camel.version>3.6.0</camel.version>
         <cglib.bundle.version>3.2.9_1</cglib.bundle.version>
         <cxf.version>3.4.3</cxf.version>
-        <jackson.version>2.12.5</jackson.version>
+        <jackson.version>2.14.2</jackson.version>
         <jna.version>5.9.0</jna.version>
         <jaxb.version>2.3.3</jaxb.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
@@ -317,7 +317,7 @@
         <pax.transx.version>0.5.0</pax.transx.version>
 
         <portlet-api.version>2.0</portlet-api.version>
-        <slf4j.version>1.7.29</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
 
         <spring.osgi.version>1.2.1</spring.osgi.version>
         <spring31.version>3.1.4.RELEASE</spring31.version>
@@ -344,6 +344,8 @@
 
         <websocket.version>1.1</websocket.version>
         <winsw.version>2.3.0</winsw.version>
+        <safeyaml.version>1.34.1</safeyaml.version>
+        <hv-jackson-dataformat.version>2.14.1</hv-jackson-dataformat.version>
 
         <surefire.argLine />
 
@@ -413,6 +415,32 @@
             <version>${easymock.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.hitachivantara</groupId>
+            <artifactId>safeyaml</artifactId>
+            <version>${safeyaml.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hitachivantara</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>${hv-jackson-dataformat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

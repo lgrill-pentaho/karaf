@@ -77,6 +77,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>org.hitachivantara.karaf.features.core</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>

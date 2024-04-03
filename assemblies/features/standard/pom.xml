@@ -70,6 +70,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>org.hitachivantara.karaf.features.core</artifactId>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
